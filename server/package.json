@@ -1,7 +1,19 @@
 {
-  "name": "$package_name$",
+  "name": "server",
   "version": "0.0.1",
   "dependencies": {
-    $END$
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-cli": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-ts": "^0.3.0",
+    "gulp-tslint": "^8.1.2",
+    "gulp-typescript": "^3.2.3",
+    "tsd": "^0.6.5",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
   }
 }
