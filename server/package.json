@@ -2,7 +2,10 @@
   "name": "server",
   "version": "0.0.1",
   "dependencies": {
-    "express": "^4.16.2"
+    "@types/node": "^8.5.2",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
