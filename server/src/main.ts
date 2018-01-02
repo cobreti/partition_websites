@@ -1,5 +1,4 @@
 import * as express from "express";
-// import https = require('https');
 import * as https from "https";
 import * as fs from "fs";
 
@@ -17,6 +16,11 @@ let port = 8001;
 let server = https.createServer(options, app);
 
 app.use( express.static('../web') );
+
+app.get('/about', function(req, response) {
+
+    response.send('hello world');
+});
 
 app.listen(8000);
 server.listen(port, function() {

@@ -4,9 +4,17 @@
     "target": "es5",
     "sourceMap": true,
     "sourceRoot": "src",
-    "outDir": "build"
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "node_modules/*",
+        "src/*"
+      ]
+    }
   },
-  "exclude": [
-    "node_modules"
+  "include": [
+    "src/**/*"
   ]
 }
