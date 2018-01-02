@@ -7,6 +7,10 @@
     "fs": "0.0.1-security",
     "https": "^1.0.0"
   },
+  "scripts": {
+    "clean": "gulp clean",
+    "build": "gulp build"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
