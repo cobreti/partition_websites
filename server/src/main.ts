@@ -15,7 +15,7 @@ let app = express();
 let port = 8001;
 let server = https.createServer(options, app);
 
-app.use( express.static('../web') );
+app.use( express.static('../web/porteFolio/dist') );
 
 app.get('/about', function(req, response) {
 
