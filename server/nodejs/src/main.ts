@@ -19,6 +19,7 @@ app.use( express.static('../../web/porteFolio/dist') );
 
 app.get('/about', function(req, response) {
 
+    console.log('answering to /about');
     response.send('hello world');
 });
 
