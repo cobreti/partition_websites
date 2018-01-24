@@ -10,7 +10,7 @@ services:
     ports:
       - "${wsagtor_http}:8000"
       - "${wsagtor_https}:8001"
-      - "9229:8002"
+      - "9229:9229"
       - "5858:5858"
     working_dir: /var/www/websites/server/nodejs
     entrypoint: ["npm", "start"]

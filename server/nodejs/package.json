@@ -10,7 +10,7 @@
   "scripts": {
     "clean": "gulp clean",
     "build": "gulp build",
-    "start": "node --inspect dist/main.js"
+    "start": "node --inspect=0.0.0.0 dist/main.js"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
